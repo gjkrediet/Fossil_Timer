@@ -1,5 +1,5 @@
-# timer
- Just a timer based on better timer made by Daniel Dakhno (which was ment to be a replacement for the Fossil timer).
+# Fossil Timer
+ Just a timer based on better timer made by Daniel Dakhno (https://github.com/dakhnod) which was ment to be a replacement for the Fossil timer.
  The original 'better timer' integrated three funtions: A stopwatch, an alarm clock and a timer. Since I myself only use the latter and I found the better timer to be too complex I decided to strip it and make the timer-function more useable (to myself at least).
 
 ## Description
@@ -14,4 +14,4 @@ When setting the time, the buttons offer the folowing funtions: add 5 minutes to
 ## Installation
 Upload timerApp.wapp to your watch or compile the app yourself. Instructions for preprocessing/compiling the app are similar to those for Gadgetbridge's opensourceWatchface which can be found here: https://codeberg.org/Freeyourgadget/fossil-hr-watchface
 
-Be aware: this app replaces the default and the better timer.
+Be aware: this app replaces the default and/or the better timer.
