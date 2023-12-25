@@ -2,6 +2,8 @@
  Just a timer based on better timer made by Daniel Dakhno (which was ment to be a replacement for the Fossil timer).
  The original 'better timer' integrated three funtions: A stopwatch, an alarm clock and a timer. Since I myself only use the latter and I found the better timer to be too complex I decided to strip it and make the timer-function more useable (to myself at least).
  
+ ![timer](https://github.com/gjkrediet/Fossil_Timer/assets/20277013/851f425b-822c-4371-9b55-60750660df3d)
+
 ## Description
 On startup the timer is preset with the previously used time. On the screen the function of the different buttons are shown. Long-press funtions are shown on the left-side and short-press funtions on the rihht side beneath the buttons. There are three modes: (1) set time, (2) countdown and (3) run in the background.
 When running in the background the app keeps track of the passed time. When activated while running in the background, the app shows the time left. When there are 30 seconds left, it forces itself to the foreground.
