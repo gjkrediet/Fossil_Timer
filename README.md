@@ -11,3 +11,4 @@ When setting the time, the buttons offer the folowing funtions: add 5 minutes to
 ## Installation
 Upload timerApp.wapp to your watch or compile the app yourself. Instructions for preprocessing/compiling the app are similar to those for Gadgetbridge's opensourceWatchface which can be found here: https://codeberg.org/Freeyourgadget/fossil-hr-watchface
 
+Be aware: this app replaces the default and the better timer.

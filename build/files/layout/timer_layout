@@ -1,0 +1,249 @@
+[
+    {
+        "id": 0,
+        "type": "container",
+        "dimension": {
+          "type": "rigid",
+          "width": 240,
+          "height": 240
+        },
+        "placement": {
+          "type": "absolute",
+          "left": 0,
+          "top": 0
+        },
+        "visible": true,
+        "inversion": "#inverted"
+    },
+    {
+        "id": 1,
+        "parent_id": 0,
+        "type": "text_page",
+        "text": "#info",
+        "ppem": 22,
+        "color": 3,
+        "ascent": 26,
+        "justify": 2,
+        "line_width": [
+            80,
+            150
+        ],
+        "dimension": {
+            "type": "rigid",
+            "width": 220,
+            "height": 60
+        },
+        "placement": {
+            "type": "absolute",
+            "left": 10,
+            "top": 40
+        },
+        "visible": true,
+        "inversion": false
+    },
+    {
+        "id": 2,
+        "parent_id": 0,
+        "type": "image",
+		"image_name": "icHourglass",
+        "dimension": {
+            "type": "rigid",
+            "width": 24,
+            "height": 24
+        },
+        "placement": {
+            "type": "absolute",
+            "left": 108,
+            "top": 20
+        },
+        "visible": true,
+        "inversion": false
+    },
+    {
+        "id": 3,
+        "parent_id": 0,
+        "type": "image",
+		"image_name": "#button_top",
+        "dimension": {
+            "type": "rigid",
+            "width": 24,
+            "height": 24
+        },
+        "placement": {
+            "type": "absolute",
+            "left": "#button_topbot_x",
+            "top": 55
+        },
+        "visible": true,
+        "inversion": false
+    },
+    {
+        "id": 4,
+        "parent_id": 0,
+        "type": "image",
+		"image_name": "#button_bottom",
+        "dimension": {
+            "type": "rigid",
+            "width": 24,
+            "height": 24
+        },
+        "placement": {
+            "type": "absolute",
+            "left": "#button_topbot_x",
+            "top": 162
+        },
+        "visible": true,
+        "inversion": false
+    },
+    {
+        "id": 5,
+        "parent_id": 0,
+        "type": "image",
+		"image_name": "#button_middle",
+        "dimension": {
+            "type": "rigid",
+            "width": 24,
+            "height": 24
+        },
+        "placement": {
+            "type": "absolute",
+            "left": "#button_middle_x",
+            "top": 107
+        },
+        "visible": true,
+        "inversion": false
+    },
+    {
+        "id": 6,
+        "parent_id": 0,
+        "type": "image",
+		"image_name": "#button_top_lp",
+        "dimension": {
+            "type": "rigid",
+            "width": 40,
+            "height": 24
+        },
+        "placement": {
+            "type": "absolute",
+            "left": "#button_topbot_lp_x",
+            "top": 53
+        },
+        "visible": true,
+        "inversion": false
+    },
+    {
+        "id": 7,
+        "parent_id": 0,
+        "type": "image",
+		"image_name": "#button_middle_lp",
+        "dimension": {
+            "type": "rigid",
+            "width": 40,
+            "height": 20
+        },
+        "placement": {
+            "type": "absolute",
+            "left": "#button_middle_lp_x",
+            "top": 107
+        },
+        "visible": true,
+        "inversion": false
+    },
+    {
+        "id": 8,
+        "parent_id": 0,
+        "type": "image",
+		"image_name": "#button_bottom_lp",
+        "dimension": {
+            "type": "rigid",
+            "width": 24,
+            "height": 24
+        },
+        "placement": {
+            "type": "absolute",
+            "left": "#button_topbot_lp_x",
+            "top": 162
+        },
+        "visible": true,
+        "inversion": false
+    },
+    {
+      "id": 9,
+      "parent_id": 0,
+      "type": "image",
+      "image_name": "#top_hold",
+      "dimension": {
+        "type": "rigid",
+        "width": 24,
+        "height": 24
+      },
+      "placement": {
+        "type": "absolute",
+        "left": "#topbot_hold_x",
+        "top": 52
+      },
+      "visible": true,
+      "inversion": false
+    },
+    {
+      "id": 10,
+      "parent_id": 0,
+      "type": "image",
+      "image_name": "#middle_hold",
+      "dimension": {
+        "type": "rigid",
+        "width": 24,
+        "height": 24
+      },
+      "placement": {
+        "type": "absolute",
+        "left": "#middle_hold_x",
+        "top": 107
+      },
+      "visible": true,
+      "inversion": false
+    },
+    {
+      "id": 11,
+      "parent_id": 0,
+      "type": "image",
+      "image_name": "#bottom_hold",
+      "dimension": {
+        "type": "rigid",
+        "width": 24,
+        "height": 24
+      },
+      "placement": {
+        "type": "absolute",
+        "left": "#topbot_hold_x",
+        "top": 162
+      },
+      "visible": true,
+      "inversion": false
+    },
+    {
+        "id": 12,
+        "parent_id": 0,
+        "type": "text_page",
+        "text": "#time",
+        "ppem": 32,
+        "color": 3,
+        "ascent": 26,
+        "justify": 2,
+        "line_width": [
+            160
+        ],
+        "dimension": {
+            "type": "rigid",
+            "width": 160,
+            "height": 30
+        },
+        "placement": {
+            "type": "absolute",
+            "left": 40,
+            "top": 190
+        },
+        "visible": true,
+        "inversion": false
+    }
+]
