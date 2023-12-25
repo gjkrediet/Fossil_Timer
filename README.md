@@ -5,7 +5,7 @@
 ## Description
 On startup the timer is preset with the previously used time. On the screen the function of the different buttons are shown. Long-press funtions are shown on the left-side and short-press funtions on the rihht side beneath the buttons. There are three modes: (1) set time, (2) countdown and (3) run in the background.
 When running in the background the app keeps track of the passed time. When activated while running in the background, the app shows the time left. When there are 30 seconds left, it forces itself to the foreground.
-When running in the foreground the hands show the minutes left and, when less than 1 minute, the seconds left. When the time is up the watch starts to vibrate in a gradualy increasing frequency. In this mode the buttons offer the functions: add a minute to the left time; decrease the left time with a minute; reset the timer; dismiss and close the timer; close the timer but leave it running.
+When running in the foreground the hands show the minutes left and, when less than 1 minute, the seconds left. At the bottom, the current time is shown. When the time is up the watch starts to vibrate in a gradualy increasing frequency. In this mode the buttons offer the functions: add a minute to the left time; decrease the left time with a minute; reset the timer; dismiss and close the timer; close the timer but leave it running.
 
 ![timer](https://github.com/gjkrediet/Fossil_Timer/assets/20277013/ea23f25e-3657-4b09-8dbd-b9456765b3a1)
 
